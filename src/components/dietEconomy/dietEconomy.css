@@ -1,0 +1,55 @@
+.diet_economy_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 1em rgb(0, 0, 0, 0.2);
+    padding: 40px 40px;
+    background-color: #fff;
+}
+
+.diet_economy_container p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-right: 100px;
+
+}
+
+
+.economy_selector {
+    margin-right: 50px;
+    width: 390px;
+}
+.economy_selector div {
+ 
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ margin:6px 8px 4px 8px;
+ padding: 4px 10px;
+ border-radius: 50px;
+  box-shadow: 0 0 1em rgb(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+.economy_selector input {
+ width: 10px;
+ height: 10px;
+ margin-right: 15px;
+ margin-left: 4px;
+ margin-top: 8px;
+ }
+
+ .economy_selector label {
+    font-size: 0.7rem;
+ }
+.pig {
+    position: relative;
+    left: 350px;
+    z-index: -1;
+    width: 200px;
+    height: 126px;
+}

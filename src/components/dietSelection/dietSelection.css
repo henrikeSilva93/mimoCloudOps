@@ -1,0 +1,35 @@
+.diet_selection{
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 50px;
+    display: flex;
+    padding: 10% 3%;
+    justify-content: space-between;
+    background-color: #fff;
+    background-image: linear-gradient(180deg, #F87D50 25%, #fafafa 25%);
+    box-shadow: 0 0 1em rgb(0, 0, 0, 0.2);
+   
+
+
+}
+
+.diet_selection_text{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+   
+}
+
+.diet_selection_grid {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    
+   
+}

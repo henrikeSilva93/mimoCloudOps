@@ -1,0 +1,49 @@
+.footer {
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #cacaca;
+    border-bottom: 1px solid #cacaca;
+
+}
+
+.footer_logo {
+ width: 20%;
+ margin: 30px 10px 10px 30px;
+ display: flex;
+ flex-direction: column;
+}
+.footer_logo img {
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.footer div{
+    margin-top: 40px;
+}
+.footer  p{
+  font-weight: 500;
+}
+.sign-up {
+    padding: 40px 40px;
+}
+.sign-up button {
+background-color: #F87D50;
+padding:20px;
+border: none;
+border-radius: 50px;
+color: #fff;
+font-weight: 500;
+}
+
+.footer div ul li a {
+    text-decoration: none;
+    color: #353535;
+ 
+}
+
+.footer div ul li a:hover {
+   color: #F87D50;
+}

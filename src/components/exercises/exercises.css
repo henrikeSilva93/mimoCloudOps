@@ -1,0 +1,61 @@
+.exercise_container {
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 1em rgb(0, 0, 0, 0.2);
+    border-radius: 50px;
+}
+
+.exercise_container p {
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 355px;
+}
+
+.selection {
+    margin-top: 35px;
+    margin-right: 67px;
+   
+
+}
+
+.radio {
+    display: flex;
+    box-shadow: 0 0 1em rgb(0, 0, 0, 0.2);
+    margin: 1px 20px 10px 20px;
+    padding: 2px 10px;
+    border-radius: 50px;
+    width: 245px;
+    align-items: center;
+}
+
+.radio  input[type="radio"]{
+    margin-top: 10px;
+}
+
+.radio label {
+    font-size: 0.8rem;
+}
+ 
+.selection select {
+    margin-top: 10px;
+    margin-left: 18px;
+    width: 245px;
+}
+
+.selection input[type="text"] {
+    margin-top: 10px;
+    margin-left: 19px;
+    width: 245px;
+}
+
+.exercise_vector {
+
+    position: absolute;
+    left: 68%;
+    z-index: -1;
+}

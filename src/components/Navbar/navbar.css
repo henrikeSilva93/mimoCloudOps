@@ -1,0 +1,62 @@
+nav {
+    display: flex;
+    padding: 0px 50px;
+    justify-content: space-around;
+    margin-top: 44px;
+    width: 100%;
+}
+
+ .navItens ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0px 10px;
+}
+
+.navItens ul li {
+    list-style: none;
+   margin: 20px 25px;
+}
+
+.navItens ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 700;
+    color: #1F1F1F;
+    ;
+}
+ .navItens ul li a:hover{
+    color: #F87D50;
+    transition: ease 1s;
+    
+} 
+
+
+.authItens ul {
+    display: flex;
+    margin-top: 10px;
+}
+.authItens ul li:first-child{
+    border: 1px solid #fff;
+}
+
+.authItens ul li {
+    margin-left: 15px;
+    list-style: none;
+    background-color: #F87D50;
+    width: 157px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 15px;
+    filter: drop-shadow(0px 0.25px 1px rgba(0, 0, 0, 0.039)) drop-shadow(0px 0.85px 3px rgba(0, 0, 0, 0.19));
+}
+
+.authItens ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    border: none;
+
+}

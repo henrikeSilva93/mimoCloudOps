@@ -1,0 +1,58 @@
+.foodRestriction_container {
+    width: 800px;
+    
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 40px 40px;
+    box-shadow:   0 0 1em rgb(0, 0, 0, 0.2);
+    border-radius: 50px;
+}
+
+.food_restriction_btn_grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.foodRestriction_container p {
+    width: 300px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.restriction_add {
+    width: 100%;
+    height:100%;
+    font-display: flex;
+}
+.restriction_add input {
+    margin-left: 50%;
+}
+ 
+.restriction_add p {
+    font-weight: 700;
+    font-size: 0.8rem;
+    margin-left: 50%;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.restriction_add button {
+    background-color: #F87D50;
+    border: none;
+    width: 80px;
+    height: 32px;
+    position: relative;
+    bottom: 47px;
+    left: 620px;
+    border-radius: 50px;
+    font-weight: 700;
+    color: #fff;
+}
+.restriction_add input {
+    width: 340px;
+}

@@ -1,0 +1,50 @@
+.suplements_container {
+    width: 800px;
+    margin: 0 auto;
+
+    margin-top: 20px;
+    padding: 40px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 1em rgb(0, 0, 0, 0.2);
+    border-radius: 50px;
+    background-color: #fff;
+}
+.suplements_container p {
+    font-size: 1.4rem;
+    font-weight: 700;
+    width: 300px;
+}
+.selector {
+    margin-right: 65px;
+}
+
+.selector div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+     box-shadow: 0 0 1em rgb(0, 0, 0, 0.2);
+     border-radius: 50px;
+     width: 245px;
+     padding: 0px 10px;
+     margin: 10px 32px 10px 10px;
+     background-color: #fff;
+
+}
+
+.selector input {
+    margin-top: 10px;
+}
+
+.selector label {
+    font-size: 0.8rem;
+}
+
+.suplement_vector{
+    position: relative;
+    left: 340px;
+    z-index: -1;
+
+    
+}
