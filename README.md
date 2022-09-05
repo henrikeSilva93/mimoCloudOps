@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# Mimo Cloud Opss Desafio 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Projeto desenvolvido com React js
 
-## Available Scripts
+## Para Iniciar o Projeto é primeiro necessário clonar o repositório no git
+em um diretório na sua máquina digite o seguinte comando : `git clone https://github.com/henrikeSilva93/mimoCloudOps.git`
 
-In the project directory, you can run:
+## Para Iniciar a aplicação com o Docker
 
-### `npm start`
+Primeiramente é necessário que o Docker esteja instalado na sua máquina. Se não estiver, segue o link para instalação:
+https://docs.docker.com/get-docker/
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Agora com o projeto clonado, devemos criar a imagem do nosso projeto. O arquivo dockerfile já está configurado
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+abra o terminal e digite:  `docker image build -t reactcloudops:1.1 .`
 
-### `npm test`
+Após a criação da imagem execute o seguinte comando: `docker container run -p 3000:3000  -d reactcloudops:1.0`
+esta linha irá executar nossa imagem criando um container que estará disponível na porta 3000 tcp
+para acessar a página  agora basta abrir um navegador e digitar `http://localhost:3000`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Para Iniciar a aplicação diretamente 
+Para acessar esta aplicação é necessário ter o NODE JS instalado na sua máquina. caso não tenha, você pode fazer o Download por aqui:
+https://nodejs.org/
 
-### `npm run build`
+Agora devemos clonar o projeto para máquina com o comando : `git clone https://github.com/henrikeSilva93/mimoCloudOps.git`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+após Clonar o repositório, é necessário instalar as dependências do projeto. Faremos isso com o comando `npm install` caso use o geranciador NPM
+ou ´yarn install´ caso use o gerenciador Yarn
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Por fim, quando todas as depedências estiverem instaladas basta executar o comando `npm start` caso use o gerenciador de dependências NPM,
+ou ´yarn run´ caso use o gerenciador Yarn.
